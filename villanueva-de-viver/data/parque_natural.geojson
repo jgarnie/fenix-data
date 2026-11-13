@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "parque_natural",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"xy_coordinate_resolution": 1e-05,
+"features": [
+{ "type": "Feature", "properties": { "nombre": "Castillo de Arenós", "hect_ofi": 32.492349001100003, "legislacio": "Paraje Natural Municipal" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.56737, 40.09353 ], [ -0.56835, 40.09462 ], [ -0.57164, 40.09443 ], [ -0.57486, 40.09322 ], [ -0.57618, 40.09313 ], [ -0.5769, 40.09247 ], [ -0.57785, 40.09247 ], [ -0.57846, 40.09151 ], [ -0.57678, 40.09128 ], [ -0.57536, 40.09199 ], [ -0.57278, 40.09188 ], [ -0.57353, 40.09083 ], [ -0.57235, 40.08995 ], [ -0.57057, 40.09037 ], [ -0.56877, 40.08964 ], [ -0.56853, 40.09 ], [ -0.56687, 40.09009 ], [ -0.56628, 40.09086 ], [ -0.5663, 40.09167 ], [ -0.56722, 40.09217 ], [ -0.56737, 40.09353 ] ] ] } },
+{ "type": "Feature", "properties": { "nombre": "Cueva Negra (Montanejos)", "hect_ofi": 0.0028274333882300001, "legislacio": "Cuevas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.53509, 40.07228 ], [ -0.53516, 40.07228 ], [ -0.53513, 40.07225 ], [ -0.53509, 40.07228 ] ] ] } }
+]
+}

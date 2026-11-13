@@ -1,0 +1,95 @@
+{
+ "total": 9361000,
+ "total_ci90": [
+  8162000,
+  10822000
+ ],
+ "coniferas": 6331000,
+ "frondosas": 3030000,
+ "muertos": 4924000,
+ "muertos_ci90": [
+  4102000,
+  5868000
+ ],
+ "muertos_coniferas": 4659000,
+ "muertos_frondosas": 265000,
+ "parcelas_dentro": 265,
+ "parcelas_usadas": 265,
+ "densidad_media_ha": 261.0,
+ "por_clase": {
+  "Pinar de pino resinero (P. pinaster)": {
+   "ha": 10359.0,
+   "parcelas": 78,
+   "pies_ha": 454.0,
+   "arboles": 4707000
+  },
+  "Bosque mixto pino + frondosas": {
+   "ha": 3210.0,
+   "parcelas": 23,
+   "pies_ha": 233.0,
+   "arboles": 747000
+  },
+  "Encinar y otras frondosas": {
+   "ha": 7474.0,
+   "parcelas": 47,
+   "pies_ha": 161.0,
+   "arboles": 1204000
+  },
+  "Bosque de ribera": {
+   "ha": 157.0,
+   "parcelas": 3,
+   "pies_ha": 80.0,
+   "arboles": 13000
+  },
+  "Matorral": {
+   "ha": 6583.0,
+   "parcelas": 0,
+   "pies_ha": 0,
+   "arboles": 0
+  },
+  "Pastizal-matorral": {
+   "ha": 969.0,
+   "parcelas": 0,
+   "pies_ha": 0,
+   "arboles": 0
+  },
+  "Otros arbolados": {
+   "ha": 60.0,
+   "parcelas": 8,
+   "pies_ha": 43.0,
+   "arboles": 3000
+  },
+  "Pinar de montaña (P. nigra, P. sylvestris)": {
+   "ha": 460.0,
+   "parcelas": 6,
+   "pies_ha": 412.0,
+   "arboles": 190000
+  },
+  "Enebral": {
+   "ha": 2028.0,
+   "parcelas": 5,
+   "pies_ha": 433.0,
+   "arboles": 877000
+  },
+  "Pinar de pino piñonero (P. pinea)": {
+   "ha": 7436.0,
+   "parcelas": 72,
+   "pies_ha": 158.0,
+   "arboles": 1178000
+  },
+  "Melojar (Quercus pyrenaica)": {
+   "ha": 867.0,
+   "parcelas": 5,
+   "pies_ha": 84.0,
+   "arboles": 73000
+  },
+  "Mezcla de pinos (resinero y piñonero)": {
+   "ha": 1879.0,
+   "parcelas": 18,
+   "pies_ha": 197.0,
+   "arboles": 370000
+  }
+ },
+ "ha_ardidas_tras_ifn": 866,
+ "fuente": "IFN3 Ávila, Madrid y Toledo (MITECO), pies mayores con diámetro ≥ 7,5 cm"
+}

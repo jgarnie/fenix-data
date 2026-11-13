@@ -1,0 +1,446 @@
+{
+ "width": 598,
+ "height": 505,
+ "bounds": [
+  [
+   40.015056071121904,
+   -0.6735519373342527
+  ],
+  [
+   40.12830761456401,
+   -0.49812556666563446
+  ]
+ ],
+ "pixel_ha": 0.0625,
+ "ground_m": 25.0,
+ "layers": [
+  "inside",
+  "sev",
+  "owner",
+  "veg",
+  "sub",
+  "pot",
+  "act",
+  "eros",
+  "feas",
+  "recur",
+  "last",
+  "slope",
+  "elev",
+  "dnbr",
+  "ndvi_b",
+  "ndvi_a",
+  "ndvi_n",
+  "dndmi",
+  "recov",
+  "ceam",
+  "pn",
+  "mun"
+ ],
+ "municipios": [
+  "Sarrión",
+  "Barracas",
+  "Manzanera",
+  "Arañuel",
+  "Ayódar",
+  "Benafer",
+  "Albentosa",
+  "Fuentes de Rubielos",
+  "Mora de Rubielos",
+  "Nogueruelas",
+  "Olba",
+  "Rubielos de Mora",
+  "San Agustín",
+  "Valbona",
+  "Torralba del Pinar",
+  "Torrechiva",
+  "Ludiente",
+  "Espadilla",
+  "Montán",
+  "Montanejos",
+  "Pavías",
+  "Castillo de Villamalefa",
+  "Caudiel",
+  "Pina de Montalgrao",
+  "Cirat",
+  "Cortes de Arenoso",
+  "Puebla de Arenoso",
+  "Fuente la Reina",
+  "Fuentes de Ayódar",
+  "Higueras",
+  "Matet",
+  "El Toro",
+  "Villahermosa del Río",
+  "Villamalur",
+  "Villanueva de Viver",
+  "Viver",
+  "Zucaina"
+ ],
+ "legends": {
+  "ceam": {
+   "0": "—",
+   "1": "<30 %: estudiar plantación o siembra selectiva",
+   "2": "30–60 %: analizar caso a caso",
+   "3": ">60 %: regeneración favorable"
+  },
+  "owner": {
+   "0": "Sin catalogar (mayoritariamente privado)",
+   "1": "Utilidad pública · Ayuntamiento",
+   "2": "Utilidad pública · Comunidad autónoma",
+   "3": "Monte público · Otras entidades o titular sin indicar",
+   "4": "Enclavado privado en monte público"
+  },
+  "veg": {
+   "0": "Sin datos",
+   "1": "Alcornocal",
+   "2": "Pinar de rodeno (P. pinaster)",
+   "3": "Pinar de pino carrasco",
+   "4": "Bosque mixto pino + frondosas",
+   "5": "Encinar, quejigar y frondosas",
+   "6": "Algarrobal / acebuchal",
+   "7": "Bosque de ribera",
+   "8": "Matorral",
+   "9": "Pastizal-matorral",
+   "10": "Agrícola",
+   "11": "Artificial / minería",
+   "12": "Agua / humedal",
+   "13": "Otros arbolados",
+   "14": "Pinar de montaña (P. nigra, P. sylvestris)",
+   "15": "Sabinar / enebral",
+   "16": "Pinar de pino piñonero (P. pinea)",
+   "17": "Melojar (Quercus pyrenaica)",
+   "18": "Mezcla de pinos (resinero y piñonero)"
+  },
+  "sub": {
+   "0": "Sin datos",
+   "1": "Silíceo (areniscas del rodeno, Weald o Utrillas)",
+   "2": "Calizo, dolomítico o margoso",
+   "3": "Arcillas y yesos (Keuper o terciarios)",
+   "4": "Fondo de valle / rambla",
+   "5": "Depósitos cuaternarios de ladera",
+   "6": "Detrítico terciario (arcillas, areniscas y conglomerados)"
+  },
+  "pot": {
+   "0": "—",
+   "1": "Alcornocal (23b, Asplenio onopteridis–Querceto suberis S.)",
+   "2": "Carrascal termomediterráneo (27c, Rubio longifoliae–Querceto rotundifoliae S.)",
+   "3": "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)",
+   "4": "Carrascal supramediterráneo con sabina albar (22a, Junipero thuriferae–Querceto rotundifoliae S.)",
+   "5": "Sabinar albar (15b, Junipereto hemisphaerico-thuriferae S.)",
+   "6": "Vegetación de ribera (geomegaseries riparias)",
+   "7": "Uso no forestal (agrícola, urbano, agua)",
+   "8": "Coscojar semiárido (29b, Rhamno lycioidis–Querceto cocciferae S.)",
+   "9": "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)",
+   "10": "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)",
+   "11": "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)",
+   "12": "Piornal oromediterráneo gredense (13b, Cytiso purgantis–Echinosparteto barnadesii S.)",
+   "13": "Melojar mesomediterráneo húmedo (18h, Arbuto–Querceto pyrenaicae S.)",
+   "14": "Enebral rastrero y piornal guadarrámico (13a, Junipero nanae–Cytiseto purgantis S.)",
+   "15": "Quejigar basófilo maestracense y aragonés (19c, Violo willkommii–Querceto fagineae S.)"
+  },
+  "act": {
+   "0": "—",
+   "1": "Regeneración natural: seguimiento y protección",
+   "2": "Regeneración asistida: siembra y plantación en núcleos",
+   "3": "Restauración activa hacia la vegetación potencial",
+   "4": "Recuperar cultivo / mosaico agrícola cortafuegos",
+   "5": "No quemado o afección leve: sin actuación"
+  },
+  "eros": {
+   "0": "—",
+   "1": "Bajo",
+   "2": "Medio",
+   "3": "Alto",
+   "4": "Muy alto"
+  },
+  "feas": {
+   "0": "—",
+   "1": "Baja (<45)",
+   "2": "Media (45–70)",
+   "3": "Alta (≥70)"
+  }
+ },
+ "stats": {
+  "ems_ha": 4524.0,
+  "grid_ha": 4528.3,
+  "forest_ha": 4044.4,
+  "public_ha": 499.8,
+  "public_forest_ha": 460.1,
+  "pn_ha": 0.0,
+  "pn_total_ha": 32.5,
+  "municipios": {
+   "Puebla de Arenoso": {
+    "total": 1590.2,
+    "forestal": 1412.9
+   },
+   "Montanejos": {
+    "total": 1000.8,
+    "forestal": 975.6
+   },
+   "Montán": {
+    "total": 765.5,
+    "forestal": 687.6
+   },
+   "San Agustín": {
+    "total": 738.1,
+    "forestal": 562.4
+   },
+   "Fuente la Reina": {
+    "total": 207.4,
+    "forestal": 190.6
+   },
+   "Olba": {
+    "total": 139.1,
+    "forestal": 133.4
+   },
+   "Villanueva de Viver": {
+    "total": 87.2,
+    "forestal": 81.9
+   }
+  },
+  "recurrent_ha": 358.9,
+  "severity": {
+   "No quemado": 238.1,
+   "Baja": 790.0,
+   "Moderada-baja": 1383.6,
+   "Moderada-alta": 1469.2,
+   "Alta": 647.4
+  },
+  "owner": {
+   "Monte público · Otras entidades o titular sin indicar": 499.8,
+   "Enclavado privado en monte público": 9.9,
+   "Sin catalogar (mayoritariamente privado)": 4018.6
+  },
+  "veg_before": {
+   "Pinar de rodeno (P. pinaster)": 23.9,
+   "Pinar de pino carrasco": 3201.4,
+   "Bosque mixto pino + frondosas": 86.9,
+   "Encinar, quejigar y frondosas": 96.4,
+   "Bosque de ribera": 24.4,
+   "Matorral": 125.2,
+   "Pastizal-matorral": 431.9,
+   "Agrícola": 463.2,
+   "Artificial / minería": 6.4,
+   "Agua / humedal": 14.4,
+   "Otros arbolados": 43.5,
+   "Pinar de montaña (P. nigra, P. sylvestris)": 10.8
+  },
+  "potential": {
+   "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)": 3269.6,
+   "Vegetación de ribera (geomegaseries riparias)": 24.4,
+   "Uso no forestal (agrícola, urbano, agua)": 483.9,
+   "Quejigar basófilo maestracense y aragonés (19c, Violo willkommii–Querceto fagineae S.)": 750.4
+  },
+  "erosion": {
+   "Bajo": 2408.4,
+   "Medio": 1347.6,
+   "Alto": 265.9,
+   "Muy alto": 22.4
+  },
+  "actions": {
+   "Regeneración natural: seguimiento y protección": {
+    "total": 1385.4,
+    "publico": 180.3,
+    "privado": 1205.1,
+    "erosion_alta": 13.8
+   },
+   "Regeneración asistida: siembra y plantación en núcleos": {
+    "total": 2527.1,
+    "publico": 256.3,
+    "privado": 2270.8,
+    "erosion_alta": 274.5
+   },
+   "Restauración activa hacia la vegetación potencial": {
+    "total": 0.0,
+    "publico": 0.0,
+    "privado": 0.0,
+    "erosion_alta": 0.0
+   },
+   "Recuperar cultivo / mosaico agrícola cortafuegos": {
+    "total": 369.0,
+    "publico": 33.2,
+    "privado": 335.8,
+    "erosion_alta": 0.0
+   },
+   "No quemado o afección leve: sin actuación": {
+    "total": 246.8,
+    "publico": 30.0,
+    "privado": 216.8,
+    "erosion_alta": 0.0
+   }
+  },
+  "feasibility": {
+   "Baja (<45)": 822.4,
+   "Media (45–70)": 2556.7,
+   "Alta (≥70)": 665.3
+  },
+  "regrowth_ha": 3632.7,
+  "soil_ndvi": 0.176,
+  "full_ndvi": 0.798,
+  "ceam": {
+   "<30 %: estudiar plantación o siembra selectiva": {
+    "total": 1687.3,
+    "publico": 213.9
+   },
+   "30–60 %: analizar caso a caso": {
+    "total": 1826.7,
+    "publico": 188.9
+   },
+   ">60 %: regeneración favorable": {
+    "total": 398.5,
+    "publico": 33.9
+   }
+  },
+  "sequedad": {
+   "ndmi_abril": 0.1,
+   "ndmi_julio": 0.018,
+   "ndvi_abril": 0.652,
+   "ndvi_julio": 0.566
+  },
+  "scenes": {
+   "abril": "2023-02-04",
+   "antes": "2023-03-16",
+   "despues": "2023-04-05",
+   "y2024": "2024-04-09",
+   "y2025": "2025-03-30",
+   "y2026": "2026-04-04",
+   "ahora": "2026-10-21"
+  },
+  "ceam_scene": "y2025",
+  "fire_year": 2023,
+  "ndvi_serie": {
+   "2023-03-16": 0.62,
+   "2023-04-05": 0.193,
+   "2024-04-09": 0.263,
+   "2025-03-30": 0.366,
+   "2026-04-04": 0.406,
+   "2026-10-21": 0.441
+  },
+  "ndvi_serie_ref": {
+   "2023-03-16": 0.533,
+   "2023-04-05": 0.505,
+   "2024-04-09": 0.483,
+   "2025-03-30": 0.51,
+   "2026-04-04": 0.536,
+   "2026-10-21": 0.571
+  },
+  "erosion_public": {
+   "Alto": 16.4,
+   "Muy alto": 0.9
+  },
+  "veg_vs_pot": {
+   "Pinar de rodeno (P. pinaster)": {
+    "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)": 0.5,
+    "Quejigar basófilo maestracense y aragonés (19c, Violo willkommii–Querceto fagineae S.)": 23.4
+   },
+   "Pinar de pino carrasco": {
+    "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)": 2741.7,
+    "Quejigar basófilo maestracense y aragonés (19c, Violo willkommii–Querceto fagineae S.)": 459.8
+   },
+   "Bosque mixto pino + frondosas": {
+    "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)": 61.6,
+    "Quejigar basófilo maestracense y aragonés (19c, Violo willkommii–Querceto fagineae S.)": 25.3
+   },
+   "Encinar, quejigar y frondosas": {
+    "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)": 35.1,
+    "Quejigar basófilo maestracense y aragonés (19c, Violo willkommii–Querceto fagineae S.)": 61.2
+   },
+   "Bosque de ribera": {
+    "Vegetación de ribera (geomegaseries riparias)": 24.4
+   },
+   "Matorral": {
+    "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)": 50.8,
+    "Quejigar basófilo maestracense y aragonés (19c, Violo willkommii–Querceto fagineae S.)": 74.4
+   },
+   "Pastizal-matorral": {
+    "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)": 361.6,
+    "Quejigar basófilo maestracense y aragonés (19c, Violo willkommii–Querceto fagineae S.)": 70.2
+   },
+   "Otros arbolados": {
+    "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)": 7.5,
+    "Quejigar basófilo maestracense y aragonés (19c, Violo willkommii–Querceto fagineae S.)": 36.0
+   },
+   "Pinar de montaña (P. nigra, P. sylvestris)": {
+    "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)": 10.8
+   }
+  },
+  "pine_ha": 3323.1,
+  "arboles": {
+   "total": 1126000,
+   "total_ci90": [
+    823000,
+    1460000
+   ],
+   "coniferas": 1052000,
+   "frondosas": 74000,
+   "muertos": 667000,
+   "muertos_ci90": [
+    480000,
+    869000
+   ],
+   "muertos_coniferas": 659000,
+   "muertos_frondosas": 8000,
+   "parcelas_dentro": 21,
+   "parcelas_usadas": 39,
+   "densidad_media_ha": 315.0,
+   "por_clase": {
+    "Pinar de rodeno (P. pinaster)": {
+     "ha": 24.0,
+     "parcelas": 8,
+     "pies_ha": 968.0,
+     "arboles": 23000
+    },
+    "Pinar de pino carrasco": {
+     "ha": 3199.0,
+     "parcelas": 20,
+     "pies_ha": 331.0,
+     "arboles": 1059000
+    },
+    "Bosque mixto pino + frondosas": {
+     "ha": 87.0,
+     "parcelas": 3,
+     "pies_ha": 250.0,
+     "arboles": 22000
+    },
+    "Encinar, quejigar y frondosas": {
+     "ha": 96.0,
+     "parcelas": 6,
+     "pies_ha": 37.0,
+     "arboles": 4000
+    },
+    "Bosque de ribera": {
+     "ha": 24.0,
+     "parcelas": 1,
+     "pies_ha": 0.0,
+     "arboles": 0
+    },
+    "Matorral": {
+     "ha": 125.0,
+     "parcelas": 0,
+     "pies_ha": 0,
+     "arboles": 0
+    },
+    "Pastizal-matorral": {
+     "ha": 432.0,
+     "parcelas": 0,
+     "pies_ha": 0,
+     "arboles": 0
+    },
+    "Otros arbolados": {
+     "ha": 44.0,
+     "parcelas": 1,
+     "pies_ha": 439.0,
+     "arboles": 19000
+    },
+    "Pinar de montaña (P. nigra, P. sylvestris)": {
+     "ha": 11.0,
+     "parcelas": 0,
+     "pies_ha": 0,
+     "arboles": 0
+    }
+   },
+   "ha_ardidas_tras_ifn": 3,
+   "fuente": "IFN3 Castellón y Teruel (MITECO), pies mayores con diámetro ≥ 7,5 cm"
+  }
+ }
+}

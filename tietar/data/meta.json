@@ -1,0 +1,658 @@
+{
+ "width": 2451,
+ "height": 1518,
+ "bounds": [
+  [
+   40.207031247980765,
+   -4.8461094367303055
+  ],
+  [
+   40.547750495588375,
+   -4.123753303269694
+  ]
+ ],
+ "pixel_ha": 0.0625,
+ "ground_m": 25.0,
+ "layers": [
+  "inside",
+  "sev",
+  "owner",
+  "veg",
+  "sub",
+  "pot",
+  "act",
+  "eros",
+  "feas",
+  "recur",
+  "last",
+  "slope",
+  "elev",
+  "dnbr",
+  "ndvi_b",
+  "ndvi_a",
+  "ndvi_n",
+  "dndmi",
+  "recov",
+  "ceam",
+  "pn",
+  "mun"
+ ],
+ "municipios": [
+  "Navaluenga",
+  "Navarredondilla",
+  "Navatalgordo",
+  "Navalosa",
+  "Navaquesera",
+  "Navalacruz",
+  "Ávila",
+  "El Barraco",
+  "Cebreros",
+  "El Fresno",
+  "Gemuño",
+  "Herradón de Pinares",
+  "El Hoyo de Pinares",
+  "Mironcillo",
+  "Muñopepe",
+  "Muñogalindo",
+  "Salobral",
+  "Navalmoral",
+  "Navalperal de Pinares",
+  "Las Navas del Marqués",
+  "Niharra",
+  "Padiernos",
+  "Peguerinos",
+  "Riofrío",
+  "San Bartolomé de Pinares",
+  "San Juan de la Nava",
+  "San Juan del Molinillo",
+  "Santa Cruz de Pinares",
+  "Santa María del Arroyo",
+  "La Serrada",
+  "Solosancho",
+  "Sotalbo",
+  "La Torre",
+  "Tornadizos de Ávila",
+  "Colmenar del Arroyo",
+  "Colmenarejo",
+  "Collado Villalba",
+  "Quijorna",
+  "El Escorial",
+  "Fresnedillas de la Oliva",
+  "Galapagar",
+  "Navalagamella",
+  "Robledo de Chavela",
+  "San Lorenzo de El Escorial",
+  "Santa María de la Alameda",
+  "Valdemaqueda",
+  "Valdemorillo",
+  "Villanueva de la Cañada",
+  "Zarzalejo",
+  "La Hija de Dios",
+  "La Adrada",
+  "Casillas",
+  "Fresnedilla",
+  "Higuera de las Dueñas",
+  "Navahondilla",
+  "Santa María del Tiétar",
+  "Sotillo de la Adrada",
+  "El Tiemblo",
+  "Camarena",
+  "Aldea en Cabo",
+  "Almorox",
+  "Casarrubios del Monte",
+  "Chozas de Canales",
+  "Escalona",
+  "Fuensalida",
+  "Garciotum",
+  "Hormigos",
+  "Maqueda",
+  "Méntrida",
+  "Nombela",
+  "Nuño Gómez",
+  "Paredes de Escalona",
+  "Pelahustán",
+  "Quismondo",
+  "El Real de San Vicente",
+  "Santa Cruz del Retamar",
+  "La Torre de Esteban Hambrán",
+  "Valmojado",
+  "Las Ventas de Retamosa",
+  "El Viso de San Juan",
+  "Burgohondo",
+  "Casavieja",
+  "Piedralaves",
+  "Villanueva de Ávila",
+  "Almendral de la Cañada",
+  "Castillo de Bayuela",
+  "Hinojosa de San Vicente",
+  "La Iglesuela del Tiétar",
+  "Sartajada",
+  "El Álamo",
+  "Aldea del Fresno",
+  "Cenicientos",
+  "Brunete",
+  "Cadalso de los Vidrios",
+  "Pelayos de la Presa",
+  "Chapinería",
+  "Navalcarnero",
+  "Navas del Rey",
+  "Rozas de Puerto Real",
+  "San Martín de Valdeiglesias",
+  "Sevilla la Nueva",
+  "Villa del Prado",
+  "Villamanta",
+  "Villamantilla",
+  "Villanueva de Perales",
+  "Arenas de San Pedro",
+  "Gavilanes",
+  "Lanzahíta",
+  "Mijares",
+  "Mombeltrán",
+  "Navarrevisca",
+  "Pedro Bernardo",
+  "San Esteban del Valle",
+  "Serranillos",
+  "Villarejo del Valle",
+  "Buenaventura",
+  "Montesclaros",
+  "Navamorcuende"
+ ],
+ "legends": {
+  "ceam": {
+   "0": "—",
+   "1": "<30 %: estudiar plantación o siembra selectiva",
+   "2": "30–60 %: analizar caso a caso",
+   "3": ">60 %: regeneración favorable"
+  },
+  "owner": {
+   "0": "Sin catalogar (mayoritariamente privado)",
+   "1": "Utilidad pública · Ayuntamiento",
+   "2": "Utilidad pública · Comunidad autónoma",
+   "3": "Utilidad pública · Otras entidades (asocios, Estado)",
+   "4": "Enclavado privado en monte público"
+  },
+  "veg": {
+   "0": "Sin datos",
+   "1": "Alcornocal",
+   "2": "Pinar de pino resinero (P. pinaster)",
+   "3": "Pinar de pino carrasco",
+   "4": "Bosque mixto pino + frondosas",
+   "5": "Encinar y otras frondosas",
+   "6": "Algarrobal / acebuchal",
+   "7": "Bosque de ribera",
+   "8": "Matorral",
+   "9": "Pastizal-matorral",
+   "10": "Agrícola",
+   "11": "Artificial / minería",
+   "12": "Agua / humedal",
+   "13": "Otros arbolados",
+   "14": "Pinar de montaña (P. nigra, P. sylvestris)",
+   "15": "Enebral",
+   "16": "Pinar de pino piñonero (P. pinea)",
+   "17": "Melojar (Quercus pyrenaica)",
+   "18": "Mezcla de pinos (resinero y piñonero)"
+  },
+  "sub": {
+   "0": "Sin datos",
+   "1": "Silíceo (granitos, gneises, pizarras)",
+   "2": "Calizo / dolomítico",
+   "3": "Arcillas y yesos (Keuper)",
+   "4": "Fondo de valle / rambla",
+   "5": "Depósitos cuaternarios de ladera"
+  },
+  "pot": {
+   "0": "—",
+   "1": "Alcornocal (23b, Asplenio onopteridis–Querceto suberis S.)",
+   "2": "Carrascal termomediterráneo (27c, Rubio longifoliae–Querceto rotundifoliae S.)",
+   "3": "Carrascal mesomediterráneo (22b, Bupleuro rigidi–Querceto rotundifoliae S.)",
+   "4": "Carrascal supramediterráneo con sabina albar (22a, Junipero thuriferae–Querceto rotundifoliae S.)",
+   "5": "Sabinar albar (15b, Junipereto hemisphaerico-thuriferae S.)",
+   "6": "Vegetación de ribera (geomegaseries riparias)",
+   "7": "Uso no forestal (agrícola, urbano, agua)",
+   "8": "Coscojar semiárido (29b, Rhamno lycioidis–Querceto cocciferae S.)",
+   "9": "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)",
+   "10": "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)",
+   "11": "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)",
+   "12": "Piornal oromediterráneo gredense (13b, Cytiso purgantis–Echinosparteto barnadesii S.)",
+   "13": "Melojar mesomediterráneo húmedo (18h, Arbuto–Querceto pyrenaicae S.)",
+   "14": "Enebral rastrero y piornal guadarrámico (13a, Junipero nanae–Cytiseto purgantis S.)"
+  },
+  "act": {
+   "0": "—",
+   "1": "Regeneración natural: seguimiento y protección",
+   "2": "Regeneración asistida: siembra y plantación en núcleos",
+   "3": "Restauración activa hacia la vegetación potencial",
+   "4": "Recuperar cultivo / mosaico agrícola cortafuegos",
+   "5": "No quemado o afección leve: sin actuación"
+  },
+  "eros": {
+   "0": "—",
+   "1": "Bajo",
+   "2": "Medio",
+   "3": "Alto",
+   "4": "Muy alto"
+  },
+  "feas": {
+   "0": "—",
+   "1": "Baja (<45)",
+   "2": "Media (45–70)",
+   "3": "Alta (≥70)"
+  }
+ },
+ "stats": {
+  "ems_ha": 48531.1,
+  "grid_ha": 48593.3,
+  "forest_ha": 42180.5,
+  "public_ha": 20803.9,
+  "public_forest_ha": 20770.2,
+  "pn_ha": 5299.8,
+  "pn_total_ha": 8242.9,
+  "municipios": {
+   "San Martín de Valdeiglesias": {
+    "total": 5581.9,
+    "forestal": 4580.6
+   },
+   "Cebreros": {
+    "total": 5058.8,
+    "forestal": 3065.7
+   },
+   "El Barraco": {
+    "total": 4542.9,
+    "forestal": 4405.9
+   },
+   "El Tiemblo": {
+    "total": 3986.4,
+    "forestal": 3048.6
+   },
+   "Navas del Rey": {
+    "total": 3779.5,
+    "forestal": 3702.8
+   },
+   "Navaluenga": {
+    "total": 3332.3,
+    "forestal": 3331.8
+   },
+   "Piedralaves": {
+    "total": 3307.6,
+    "forestal": 2860.5
+   },
+   "Villa del Prado": {
+    "total": 2934.6,
+    "forestal": 2460.6
+   },
+   "Casavieja": {
+    "total": 2780.3,
+    "forestal": 2230.1
+   },
+   "La Adrada": {
+    "total": 2290.8,
+    "forestal": 2069.2
+   },
+   "Robledo de Chavela": {
+    "total": 2166.1,
+    "forestal": 2153.8
+   },
+   "Burgohondo": {
+    "total": 1697.7,
+    "forestal": 1646.8
+   },
+   "Sotillo de la Adrada": {
+    "total": 1036.3,
+    "forestal": 995.4
+   },
+   "San Juan de la Nava": {
+    "total": 965.7,
+    "forestal": 959.8
+   },
+   "Colmenar del Arroyo": {
+    "total": 917.3,
+    "forestal": 906.6
+   },
+   "La Iglesuela del Tiétar": {
+    "total": 741.8,
+    "forestal": 549.1
+   },
+   "Fresnedillas de la Oliva": {
+    "total": 733.6,
+    "forestal": 731.6
+   },
+   "El Hoyo de Pinares": {
+    "total": 486.1,
+    "forestal": 328.1
+   },
+   "Pelayos de la Presa": {
+    "total": 433.2,
+    "forestal": 392.8
+   },
+   "Mijares": {
+    "total": 384.0,
+    "forestal": 342.4
+   },
+   "Chapinería": {
+    "total": 381.6,
+    "forestal": 375.8
+   },
+   "Valdemaqueda": {
+    "total": 265.6,
+    "forestal": 265.6
+   },
+   "Aldea del Fresno": {
+    "total": 256.1,
+    "forestal": 256.1
+   },
+   "Almorox": {
+    "total": 231.8,
+    "forestal": 223.1
+   },
+   "Casillas": {
+    "total": 154.0,
+    "forestal": 153.6
+   },
+   "Navahondilla": {
+    "total": 123.2,
+    "forestal": 123.2
+   },
+   "Navalagamella": {
+    "total": 12.4,
+    "forestal": 12.4
+   },
+   "Sartajada": {
+    "total": 8.9,
+    "forestal": 8.1
+   },
+   "Cadalso de los Vidrios": {
+    "total": 2.7,
+    "forestal": 0.5
+   }
+  },
+  "recurrent_ha": 866.1,
+  "severity": {
+   "No quemado": 515.8,
+   "Baja": 8340.0,
+   "Moderada-baja": 17464.9,
+   "Moderada-alta": 14676.1,
+   "Alta": 7473.3
+  },
+  "owner": {
+   "Utilidad pública · Ayuntamiento": 17204.6,
+   "Utilidad pública · Otras entidades (asocios, Estado)": 3599.3,
+   "Sin catalogar (mayoritariamente privado)": 27789.4
+  },
+  "veg_before": {
+   "Pinar de pino resinero (P. pinaster)": 10388.6,
+   "Bosque mixto pino + frondosas": 3212.0,
+   "Encinar y otras frondosas": 7516.2,
+   "Bosque de ribera": 163.1,
+   "Matorral": 6945.1,
+   "Pastizal-matorral": 1038.9,
+   "Agrícola": 6111.9,
+   "Artificial / minería": 280.2,
+   "Agua / humedal": 20.6,
+   "Otros arbolados": 60.2,
+   "Pinar de montaña (P. nigra, P. sylvestris)": 459.7,
+   "Enebral": 2046.2,
+   "Pinar de pino piñonero (P. pinea)": 7586.0,
+   "Melojar (Quercus pyrenaica)": 885.2,
+   "Mezcla de pinos (resinero y piñonero)": 1879.2
+  },
+  "potential": {
+   "Vegetación de ribera (geomegaseries riparias)": 759.9,
+   "Uso no forestal (agrícola, urbano, agua)": 6412.8,
+   "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 23336.4,
+   "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)": 2525.0,
+   "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 12730.8,
+   "Piornal oromediterráneo gredense (13b, Cytiso purgantis–Echinosparteto barnadesii S.)": 2828.4
+  },
+  "erosion": {
+   "Bajo": 25401.4,
+   "Medio": 11758.4,
+   "Alto": 4528.0,
+   "Muy alto": 492.7
+  },
+  "actions": {
+   "Regeneración natural: seguimiento y protección": {
+    "total": 27945.4,
+    "publico": 11492.1,
+    "privado": 16453.3,
+    "erosion_alta": 1927.0
+   },
+   "Regeneración asistida: siembra y plantación en núcleos": {
+    "total": 13721.7,
+    "publico": 9085.3,
+    "privado": 4636.4,
+    "erosion_alta": 3093.7
+   },
+   "Restauración activa hacia la vegetación potencial": {
+    "total": 8.1,
+    "publico": 1.1,
+    "privado": 6.9,
+    "erosion_alta": 0.0
+   },
+   "Recuperar cultivo / mosaico agrícola cortafuegos": {
+    "total": 5990.9,
+    "publico": 26.0,
+    "privado": 5964.9,
+    "erosion_alta": 0.0
+   },
+   "No quemado o afección leve: sin actuación": {
+    "total": 927.3,
+    "publico": 199.4,
+    "privado": 727.9,
+    "erosion_alta": 0.0
+   }
+  },
+  "feasibility": {
+   "Baja (<45)": 6936.2,
+   "Media (45–70)": 20338.2,
+   "Alta (≥70)": 14906.1
+  },
+  "regrowth_ha": 39657.9,
+  "soil_ndvi": 0.15,
+  "full_ndvi": 0.789,
+  "ceam": {
+   "<30 %: estudiar plantación o siembra selectiva": {
+    "total": 18967.8,
+    "publico": 11328.2
+   },
+   "30–60 %: analizar caso a caso": {
+    "total": 16441.1,
+    "publico": 6913.2
+   },
+   ">60 %: regeneración favorable": {
+    "total": 6264.2,
+    "publico": 2337.1
+   }
+  },
+  "sequedad": {
+   "ndmi_abril": 0.09,
+   "ndmi_julio": 0.015,
+   "ndvi_abril": 0.611,
+   "ndvi_julio": 0.485
+  },
+  "scenes": {
+   "abril": "2026-04-15",
+   "antes": "2026-07-16",
+   "despues": "2026-08-08",
+   "ahora": "2026-11-01"
+  },
+  "ceam_scene": "ahora",
+  "fire_year": 2026,
+  "ndvi_serie": {
+   "2026-07-16": 0.569,
+   "2026-08-08": 0.167,
+   "2026-11-01": 0.334
+  },
+  "ndvi_serie_ref": {
+   "2026-07-16": 0.435,
+   "2026-08-08": 0.374,
+   "2026-11-01": 0.577
+  },
+  "erosion_public": {
+   "Alto": 3715.4,
+   "Muy alto": 441.6
+  },
+  "veg_vs_pot": {
+   "Pinar de pino resinero (P. pinaster)": {
+    "Vegetación de ribera (geomegaseries riparias)": 338.9,
+    "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 2021.1,
+    "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)": 758.5,
+    "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 7192.6,
+    "Piornal oromediterráneo gredense (13b, Cytiso purgantis–Echinosparteto barnadesii S.)": 77.5
+   },
+   "Bosque mixto pino + frondosas": {
+    "Vegetación de ribera (geomegaseries riparias)": 78.9,
+    "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 2595.6,
+    "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)": 389.6,
+    "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 147.9
+   },
+   "Encinar y otras frondosas": {
+    "Vegetación de ribera (geomegaseries riparias)": 58.6,
+    "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 6895.2,
+    "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)": 490.8,
+    "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 71.7
+   },
+   "Bosque de ribera": {
+    "Vegetación de ribera (geomegaseries riparias)": 163.1
+   },
+   "Matorral": {
+    "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 1087.2,
+    "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)": 48.1,
+    "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 3135.0,
+    "Piornal oromediterráneo gredense (13b, Cytiso purgantis–Echinosparteto barnadesii S.)": 2674.8
+   },
+   "Pastizal-matorral": {
+    "Vegetación de ribera (geomegaseries riparias)": 1.6,
+    "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 320.8,
+    "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)": 76.5,
+    "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 580.3,
+    "Piornal oromediterráneo gredense (13b, Cytiso purgantis–Echinosparteto barnadesii S.)": 59.6
+   },
+   "Otros arbolados": {
+    "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 38.4,
+    "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)": 0.4,
+    "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 21.4
+   },
+   "Pinar de montaña (P. nigra, P. sylvestris)": {
+    "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 447.0,
+    "Piornal oromediterráneo gredense (13b, Cytiso purgantis–Echinosparteto barnadesii S.)": 12.7
+   },
+   "Enebral": {
+    "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 2046.2
+   },
+   "Pinar de pino piñonero (P. pinea)": {
+    "Vegetación de ribera (geomegaseries riparias)": 52.8,
+    "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 7187.8,
+    "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)": 234.8,
+    "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 110.6
+   },
+   "Melojar (Quercus pyrenaica)": {
+    "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 290.4,
+    "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)": 12.0,
+    "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 579.1,
+    "Piornal oromediterráneo gredense (13b, Cytiso purgantis–Echinosparteto barnadesii S.)": 3.8
+   },
+   "Mezcla de pinos (resinero y piñonero)": {
+    "Vegetación de ribera (geomegaseries riparias)": 66.0,
+    "Encinar silicícola guadarrámico (24a, Junipero oxycedri–Querceto rotundifoliae S.)": 853.8,
+    "Encinar silicícola luso-extremadurense (24c, Pyro bourgaeanae–Querceto rotundifoliae S.)": 514.2,
+    "Melojar supramediterráneo (18a, Luzulo forsteri–Querceto pyrenaicae S.)": 445.2
+   }
+  },
+  "pine_ha": 23525.5,
+  "arboles": {
+   "total": 9361000,
+   "total_ci90": [
+    8162000,
+    10822000
+   ],
+   "coniferas": 6331000,
+   "frondosas": 3030000,
+   "muertos": 4924000,
+   "muertos_ci90": [
+    4102000,
+    5868000
+   ],
+   "muertos_coniferas": 4659000,
+   "muertos_frondosas": 265000,
+   "parcelas_dentro": 265,
+   "parcelas_usadas": 265,
+   "densidad_media_ha": 261.0,
+   "por_clase": {
+    "Pinar de pino resinero (P. pinaster)": {
+     "ha": 10359.0,
+     "parcelas": 78,
+     "pies_ha": 454.0,
+     "arboles": 4707000
+    },
+    "Bosque mixto pino + frondosas": {
+     "ha": 3210.0,
+     "parcelas": 23,
+     "pies_ha": 233.0,
+     "arboles": 747000
+    },
+    "Encinar y otras frondosas": {
+     "ha": 7474.0,
+     "parcelas": 47,
+     "pies_ha": 161.0,
+     "arboles": 1204000
+    },
+    "Bosque de ribera": {
+     "ha": 157.0,
+     "parcelas": 3,
+     "pies_ha": 80.0,
+     "arboles": 13000
+    },
+    "Matorral": {
+     "ha": 6583.0,
+     "parcelas": 0,
+     "pies_ha": 0,
+     "arboles": 0
+    },
+    "Pastizal-matorral": {
+     "ha": 969.0,
+     "parcelas": 0,
+     "pies_ha": 0,
+     "arboles": 0
+    },
+    "Otros arbolados": {
+     "ha": 60.0,
+     "parcelas": 8,
+     "pies_ha": 43.0,
+     "arboles": 3000
+    },
+    "Pinar de montaña (P. nigra, P. sylvestris)": {
+     "ha": 460.0,
+     "parcelas": 6,
+     "pies_ha": 412.0,
+     "arboles": 190000
+    },
+    "Enebral": {
+     "ha": 2028.0,
+     "parcelas": 5,
+     "pies_ha": 433.0,
+     "arboles": 877000
+    },
+    "Pinar de pino piñonero (P. pinea)": {
+     "ha": 7436.0,
+     "parcelas": 72,
+     "pies_ha": 158.0,
+     "arboles": 1178000
+    },
+    "Melojar (Quercus pyrenaica)": {
+     "ha": 867.0,
+     "parcelas": 5,
+     "pies_ha": 84.0,
+     "arboles": 73000
+    },
+    "Mezcla de pinos (resinero y piñonero)": {
+     "ha": 1879.0,
+     "parcelas": 18,
+     "pies_ha": 197.0,
+     "arboles": 370000
+    }
+   },
+   "ha_ardidas_tras_ifn": 866,
+   "fuente": "IFN3 Ávila, Madrid y Toledo (MITECO), pies mayores con diámetro ≥ 7,5 cm"
+  }
+ }
+}
